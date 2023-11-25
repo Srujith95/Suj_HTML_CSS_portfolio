@@ -1,0 +1,98 @@
+body{
+    padding:0;
+    margin: 0;
+    width:100%
+}
+
+.card{
+    text-align: center;
+}
+
+.container1{
+    background-color: lightblue;
+    
+}
+
+.introduction{
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.heading{
+    font-family: 'Dancing Script', cursive;
+    font-size: 80px;
+    color: #3085C3;
+}
+
+.sub_heading{
+    font-family: 'Hind', sans-serif;
+    font-size: 30px;
+    color: #3085C3;
+    margin: 0px;
+}
+
+.img_birds{
+     padding-left:70%;
+     padding-top: 50px;
+}
+
+.my_image{
+    padding-top: 100px;
+    border-radius: 60px;
+}
+ 
+.resume1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 20px;
+    margin: 20px;
+    
+}
+
+.resume{
+    flex: 1;
+    background-color: lightblue;
+    width: 300px;
+    border-radius: 5px;
+    height: 300px;
+    padding: 20px;
+}
+
+
+.college_list{
+    list-style: none;
+    text-align: center;
+    padding-right: 40px;
+    padding-bottom: 10px;
+}
+ .list{
+    list-style: none;
+    padding: 0px 30px 14px 0px ;
+    text-align: center;
+ }
+
+.footer{
+    background-color:lightblue;
+    padding: 20px;
+    margin-bottom: 0px;
+}
+
+.social_media{
+    display: flex;
+    justify-content: center;
+      align-items: center;
+      gap: 2rem;
+}
+
+
+@media (max-width: 1000px){
+        
+    .resume1{
+        flex-direction: column;
+    }
+    .resume{
+        width:200px;
+    }
+}
